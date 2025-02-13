@@ -82,7 +82,7 @@ def calculate_cost_and_benefit(social_cost_of_carbon, global_lcoe_average, beta,
 ###############################################################################
 
 def main():
-    st.title("Carbon Arbitrage Opportunity Calculator")
+    st.title("My Carbon Arbitrage Opportunity Calculator")
 
     st.sidebar.header("Model Parameters")
     social_cost_of_carbon = st.sidebar.slider("Social Cost of Carbon (USD per ton CO₂)", 1, 200, 80)
